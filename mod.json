@@ -1,0 +1,27 @@
+{
+	"geode": "3.2.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206"
+	},
+	"id": "dogotrigger.recenttabanalyzer",
+	"name": "Recent Tab Analyzer",
+	"version": "v1.0.0",
+	"developer": "dogotrigger",
+	"description": "This mod detects any unlisted levels in the Recent Tab and tries to reveal them",
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"importance": "required",
+			"version": "*"
+		}
+	],
+	"issues": {
+		"info": "You can report issues about Recent Tab Analyzer in <cy>the mod's repository</c>.",
+		"url": "ttps://github.com/SergeyMC9730/recenttabanalyzer"
+	},
+	"repository": "https://github.com/SergeyMC9730/recenttabanalyzer",
+	"links": {
+		"repository": "https://github.com/SergeyMC9730/recenttabanalyzer"
+	}
+}
