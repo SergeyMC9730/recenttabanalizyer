@@ -13,7 +13,7 @@
 		{
 			"id": "geode.node-ids",
 			"importance": "required",
-			"version": "*"
+			"version": ">=v1.13.1"
 		}
 	],
 	"issues": {
