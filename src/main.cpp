@@ -239,13 +239,11 @@ public:
 		return LevelBrowserLayer::init(obj);
 	}
 
-#define MENU_SEL_1(func) void func(CCObject *sender) { RTAGlobal::deletedLevels.clear(); /* log::info("cleared"); */ LevelBrowserLayer::##func(sender); }
-
-	MENU_SEL_1(onGoToPage);
-	MENU_SEL_1(onGoToLastPage);
-	MENU_SEL_1(onNextPage);
-	MENU_SEL_1(onPrevPage);
-	MENU_SEL_1(onRefresh);
+	void onGoToPage(CCObject* sender) { RTAGlobal::deletedLevels.clear(); /* log::info("cleared"); */ LevelBrowserLayer::onGoToPage(sender); }
+	void onGoToLastPage(CCObject* sender) { RTAGlobal::deletedLevels.clear(); /* log::info("cleared"); */ LevelBrowserLayer::onGoToLastPage(sender); }
+	void onNextPage(CCObject* sender) { RTAGlobal::deletedLevels.clear(); /* log::info("cleared"); */ LevelBrowserLayer::onNextPage(sender); }
+	void onPrevPage(CCObject* sender) { RTAGlobal::deletedLevels.clear(); /* log::info("cleared"); */ LevelBrowserLayer::onPrevPage(sender); }
+	void onRefresh(CCObject* sender) { RTAGlobal::deletedLevels.clear(); /* log::info("cleared"); */ LevelBrowserLayer::onRefresh(sender); }
 
 	void keyBackClicked() {
 		RTAGlobal::deletedLevels.clear(); 
